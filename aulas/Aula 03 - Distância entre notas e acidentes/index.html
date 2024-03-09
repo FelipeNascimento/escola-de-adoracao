@@ -1,0 +1,702 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="FelipeNascimento">
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.2.5">
+    
+    
+      
+        <title>Aula 03 - Distância entre Notas e Acidentes - Escola de Adoração</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.2d9f7617.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.e6a45f82.min.css">
+        
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#aula-03-distancia-entre-notas-e-acidentes" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Escola de Adoração" class="md-header__button md-logo" aria-label="Escola de Adoração" data-md-component="logo">
+      
+  <img src="../../img/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Escola de Adoração
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Aula 03 - Distância entre Notas e Acidentes
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Escola de Adoração" class="md-nav__button md-logo" aria-label="Escola de Adoração" data-md-component="logo">
+      
+  <img src="../../img/logo.png" alt="logo">
+
+    </a>
+    Escola de Adoração
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Sobre o projeto
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Aulas
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Aulas" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Aulas
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Aula%2001%20-%20Adora%C3%A7%C3%A3o%20atrav%C3%A9s%20da%20M%C3%BAsica/" class="md-nav__link">
+        Aula 01 - Adoração através da Música
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Aula%2002%20-%20Introdu%C3%A7%C3%A3o%20a%20linguagem%20musical/" class="md-nav__link">
+        Aula 02 - Introdução à Linguagem Musical
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Aula 03 - Distância entre Notas e Acidentes
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Aula 03 - Distância entre Notas e Acidentes
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#materiais-necessarios" class="md-nav__link">
+    Materiais Necessários
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#estrutura-da-aula" class="md-nav__link">
+    Estrutura da Aula
+  </a>
+  
+    <nav class="md-nav" aria-label="Estrutura da Aula">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introducao-10-minutos" class="md-nav__link">
+    Introdução (10 minutos)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#desenvolvimento-35-minutos" class="md-nav__link">
+    Desenvolvimento (35 minutos)
+  </a>
+  
+    <nav class="md-nav" aria-label="Desenvolvimento (35 minutos)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#distancia-entre-notas-tom-e-semitom-15-minutos" class="md-nav__link">
+    Distância entre Notas: Tom e Semitom (15 minutos)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acidentes-bemois-e-sustenidos-15-minutos" class="md-nav__link">
+    Acidentes Bemóis e Sustenidos (15 minutos)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atividade-pratica-15-minutos" class="md-nav__link">
+    Atividade Prática (15 minutos)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conclusao-10-minutos" class="md-nav__link">
+    Conclusão (10 minutos)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Aula%2004%20-%20Introdu%C3%A7%C3%A3o%20aos%20instrumentos%20e%20acordes%20maiores/" class="md-nav__link">
+        Aula 04 - Introdução aos Instrumentos e Acordes Maiores
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Aula%2005%20-%20Tonalidade%20musical%20e%20escala%20maior%20natural/" class="md-nav__link">
+        Aula 05 - Tonalidade Musical e Escala Maior Natural
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Aula%2006%20-%20Forma%C3%A7%C3%A3o%20de%20Acordes%20triades%20e%20tetrades/" class="md-nav__link">
+        Aula 06 - Formação de Acordes Triades e Tetrades
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Aula%2007%20-%20Intervalos/" class="md-nav__link">
+        Aula 07 - Intervalos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Aula%2008%20-%20Acordes%20dissonantes/" class="md-nav__link">
+        Aula 08 - Acordes Dissonantes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Aula%2009%20-%20Invers%C3%A3o%20de%20acordes/" class="md-nav__link">
+        Aula 09 - Inversão de Acordes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Aula%2010%20-%20Progress%C3%A3o%20de%20acordes/" class="md-nav__link">
+        Aula 10 - Progressão de Acordes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Pendencias/" class="md-nav__link">
+        Pendencias
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#materiais-necessarios" class="md-nav__link">
+    Materiais Necessários
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#estrutura-da-aula" class="md-nav__link">
+    Estrutura da Aula
+  </a>
+  
+    <nav class="md-nav" aria-label="Estrutura da Aula">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introducao-10-minutos" class="md-nav__link">
+    Introdução (10 minutos)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#desenvolvimento-35-minutos" class="md-nav__link">
+    Desenvolvimento (35 minutos)
+  </a>
+  
+    <nav class="md-nav" aria-label="Desenvolvimento (35 minutos)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#distancia-entre-notas-tom-e-semitom-15-minutos" class="md-nav__link">
+    Distância entre Notas: Tom e Semitom (15 minutos)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acidentes-bemois-e-sustenidos-15-minutos" class="md-nav__link">
+    Acidentes Bemóis e Sustenidos (15 minutos)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atividade-pratica-15-minutos" class="md-nav__link">
+    Atividade Prática (15 minutos)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conclusao-10-minutos" class="md-nav__link">
+    Conclusão (10 minutos)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+<h1 id="aula-03-distancia-entre-notas-e-acidentes">Aula 03 - Distância entre Notas e Acidentes</h1>
+<p>Nesta aula, os alunos continuarão a explorar a linguagem musical, concentrando-se na distância entre notas, tom, semitom e os acidentes bemóis e sustenidos.</p>
+<p><strong>Nível:</strong> Básico | <strong>Duração da Aula:</strong> 1 hora</p>
+<h3 id="materiais-necessarios">Materiais Necessários</h3>
+<ul>
+<li>Quadro branco ou flip chart</li>
+<li>Marcadores coloridos</li>
+<li>Exemplos de partituras ou recursos audiovisuais (opcional)</li>
+<li>Instrumento musical (opcional)</li>
+</ul>
+<h2 id="estrutura-da-aula">Estrutura da Aula</h2>
+<h3 id="introducao-10-minutos">Introdução (10 minutos)</h3>
+<ol>
+<li>Saudação e boas-vindas aos alunos.</li>
+<li>Breve revisão dos conceitos abordados na aula anterior sobre notas musicais e claves.</li>
+<li>Apresentação do objetivo da aula: compreender a distância entre notas, tom, semitom e os acidentes musicais.</li>
+</ol>
+<h3 id="desenvolvimento-35-minutos">Desenvolvimento (35 minutos)</h3>
+<h4 id="distancia-entre-notas-tom-e-semitom-15-minutos">Distância entre Notas: Tom e Semitom (15 minutos)</h4>
+<ul>
+<li>Recapitulação do conceito de tom e semitom como unidades de distância entre notas musicais.</li>
+<li>Demonstração prática no teclado ou em outro instrumento musical, mostrando a distância entre notas adjacentes.</li>
+<li>Discussão sobre como os tons e semitons são utilizados para construir escalas musicais.</li>
+</ul>
+<h4 id="acidentes-bemois-e-sustenidos-15-minutos">Acidentes Bemóis e Sustenidos (15 minutos)</h4>
+<ul>
+<li>Revisão dos acidentes musicais bemóis (♭) e sustenidos (♯).</li>
+<li>Explicação de como os acidentes alteram o tom de uma nota em um semitom.</li>
+<li>Demonstração prática de como os acidentes são aplicados em partituras musicais para criar tons diferentes.</li>
+</ul>
+<h3 id="atividade-pratica-15-minutos">Atividade Prática (15 minutos)</h3>
+<ol>
+<li>Distribuição de folhas de exercícios contendo perguntas sobre distâncias entre notas, tons, semitons e acidentes musicais.</li>
+<li>Os alunos devem completar os exercícios individualmente.</li>
+<li>Revisão das respostas em sala de aula, esclarecendo dúvidas e fornecendo feedback.</li>
+</ol>
+<h3 id="conclusao-10-minutos">Conclusão (10 minutos)</h3>
+<ol>
+<li>Recapitulação dos principais conceitos abordados na aula: distância entre notas, tom, semitom e acidentes musicais.</li>
+<li>Encorajamento aos alunos para praticarem a identificação e aplicação desses conceitos em casa, seja na leitura de partituras ou na execução no instrumento.</li>
+<li>Agradecimento aos alunos pela participação e finalização da aula com uma breve revisão dos objetivos e uma prévia do que será abordado na próxima aula.</li>
+</ol>
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../Aula%2002%20-%20Introdu%C3%A7%C3%A3o%20a%20linguagem%20musical/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Aula 02 - Introdução à Linguagem Musical" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Aula 02 - Introdução à Linguagem Musical
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../Aula%2004%20-%20Introdu%C3%A7%C3%A3o%20aos%20instrumentos%20e%20acordes%20maiores/" class="md-footer__link md-footer__link--next" aria-label="Next: Aula 04 - Introdução aos Instrumentos e Acordes Maiores" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Aula 04 - Introdução aos Instrumentos e Acordes Maiores
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.tracking"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.bd0b6b67.min.js"}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.467223ff.min.js"></script>
+      
+    
+  </body>
+</html>
