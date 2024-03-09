@@ -1,17 +1,14 @@
-# Bem vindos a escola de adoração
+# Sobre o projeto
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Missão
 
-## Commands
+A escola de adoração foi criada com a missão de ensinar os principios de adoração para essa geração. Vivemos uma momento crucial na nossa geraçao onde Deus tem falado através de seus ministros do evangelho que existe um grande avivamento vindo sobre nossa nação...........
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Em construção...
 
-## Project layout
+## Quem somos?
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Esse é um projeto social com intuito de preparar a nossa e as proximas gerações de ministros de louvores.
+Nossa missão é restaurar a simplicidade na nossa adoração
+
+Em construção...

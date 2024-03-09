@@ -1,2 +1,13 @@
 site_name: Escola de Adoração
-theme: material
+theme: 
+  name: material
+  locale: pt_BR
+  logo: img/logo.png
+  favicon: img/favicon.ico
+  palette:
+    scheme: default
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+site_author: FelipeNascimento
